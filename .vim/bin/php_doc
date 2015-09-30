@@ -1,0 +1,5 @@
+#!/bin/sh
+FUNCTION=`echo $1 | sed 's/_/-/g'`
+links "http://ru2.php.net/search.php?pattern=$FUNCTION&show=quickref"
+
+#vim:syntax=sh
